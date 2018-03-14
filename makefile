@@ -6,7 +6,7 @@ RM = rm -f
 
 OBJS = main.o formata.o frequencia.o trie.o
 
-MAIN = name_separator_ecg
+MAIN = name_separator
 
 $(MAIN): $(OBJS)
 	@echo ""
